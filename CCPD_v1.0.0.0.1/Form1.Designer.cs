@@ -56,23 +56,23 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.ComOvTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.ParticlesTextBox = new System.Windows.Forms.TextBox();
+            this.BasisTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.RrovTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.DiagramTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.SFTextBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.SLnATextBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.SLLoTextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AcceptTaskConditionsButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -84,14 +84,14 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label19 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.AcceptPropertiesButton = new System.Windows.Forms.Button();
+            this.TkLabel = new System.Windows.Forms.Label();
+            this.WSolTextBox = new System.Windows.Forms.TextBox();
+            this.ViscosityTextBox = new System.Windows.Forms.TextBox();
+            this.DPTextBox = new System.Windows.Forms.TextBox();
+            this.DensityTextBox = new System.Windows.Forms.TextBox();
+            this.M2TextBox = new System.Windows.Forms.TextBox();
+            this.M1TextBox = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -101,15 +101,15 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
+            this.A0ATextBox = new System.Windows.Forms.TextBox();
+            this.BTextBox = new System.Windows.Forms.TextBox();
+            this.RATextBox = new System.Windows.Forms.TextBox();
+            this.E0ATextBox = new System.Windows.Forms.TextBox();
+            this.NebTextBox = new System.Windows.Forms.TextBox();
+            this.AcceptParametersButton = new System.Windows.Forms.Button();
+            this.ADebyeLabel = new System.Windows.Forms.Label();
+            this.BDebyeLabel = new System.Windows.Forms.Label();
+            this.RTFLabel = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button5 = new System.Windows.Forms.Button();
@@ -182,7 +182,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // editToolStripMenuItem
@@ -211,13 +211,13 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
             // 
@@ -231,13 +231,13 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Условия задачи";
             // 
-            // textBox1
+            // ComOvTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(50, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "1";
+            this.ComOvTextBox.Location = new System.Drawing.Point(83, 46);
+            this.ComOvTextBox.Name = "ComOvTextBox";
+            this.ComOvTextBox.Size = new System.Drawing.Size(50, 20);
+            this.ComOvTextBox.TabIndex = 2;
+            this.ComOvTextBox.Text = "1";
             // 
             // label2
             // 
@@ -257,21 +257,21 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Частиц";
             // 
-            // textBox2
+            // ParticlesTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(83, 72);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(50, 20);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "3";
+            this.ParticlesTextBox.Location = new System.Drawing.Point(83, 72);
+            this.ParticlesTextBox.Name = "ParticlesTextBox";
+            this.ParticlesTextBox.Size = new System.Drawing.Size(50, 20);
+            this.ParticlesTextBox.TabIndex = 5;
+            this.ParticlesTextBox.Text = "3";
             // 
-            // textBox3
+            // BasisTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(83, 98);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(50, 20);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.Text = "2";
+            this.BasisTextBox.Location = new System.Drawing.Point(83, 98);
+            this.BasisTextBox.Name = "BasisTextBox";
+            this.BasisTextBox.Size = new System.Drawing.Size(50, 20);
+            this.BasisTextBox.TabIndex = 7;
+            this.BasisTextBox.Text = "2";
             // 
             // label4
             // 
@@ -282,13 +282,13 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Базис";
             // 
-            // textBox4
+            // RrovTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(83, 124);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(50, 20);
-            this.textBox4.TabIndex = 9;
-            this.textBox4.Text = "1";
+            this.RrovTextBox.Location = new System.Drawing.Point(83, 124);
+            this.RrovTextBox.Name = "RrovTextBox";
+            this.RrovTextBox.Size = new System.Drawing.Size(50, 20);
+            this.RrovTextBox.TabIndex = 9;
+            this.RrovTextBox.Text = "1";
             // 
             // label5
             // 
@@ -299,13 +299,13 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Р-ров";
             // 
-            // textBox5
+            // DiagramTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(83, 150);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(50, 20);
-            this.textBox5.TabIndex = 11;
-            this.textBox5.Text = "1";
+            this.DiagramTextBox.Location = new System.Drawing.Point(83, 150);
+            this.DiagramTextBox.Name = "DiagramTextBox";
+            this.DiagramTextBox.Size = new System.Drawing.Size(50, 20);
+            this.DiagramTextBox.TabIndex = 11;
+            this.DiagramTextBox.Text = "1";
             // 
             // label6
             // 
@@ -317,13 +317,13 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Диаграмма";
             // 
-            // textBox6
+            // SFTextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(83, 176);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(50, 20);
-            this.textBox6.TabIndex = 13;
-            this.textBox6.Text = "0,0001";
+            this.SFTextBox.Location = new System.Drawing.Point(83, 176);
+            this.SFTextBox.Name = "SFTextBox";
+            this.SFTextBox.Size = new System.Drawing.Size(50, 20);
+            this.SFTextBox.TabIndex = 13;
+            this.SFTextBox.Text = "0,0001";
             // 
             // label7
             // 
@@ -334,13 +334,13 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "s (ln a)";
             // 
-            // textBox7
+            // SLnATextBox
             // 
-            this.textBox7.Location = new System.Drawing.Point(83, 202);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(50, 20);
-            this.textBox7.TabIndex = 15;
-            this.textBox7.Text = "0,000001";
+            this.SLnATextBox.Location = new System.Drawing.Point(83, 202);
+            this.SLnATextBox.Name = "SLnATextBox";
+            this.SLnATextBox.Size = new System.Drawing.Size(50, 20);
+            this.SLnATextBox.TabIndex = 15;
+            this.SLnATextBox.Text = "0,000001";
             // 
             // label8
             // 
@@ -351,13 +351,13 @@
             this.label8.TabIndex = 14;
             this.label8.Text = "s (F)";
             // 
-            // textBox8
+            // SLLoTextBox
             // 
-            this.textBox8.Location = new System.Drawing.Point(83, 228);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(50, 20);
-            this.textBox8.TabIndex = 17;
-            this.textBox8.Text = "0,0001";
+            this.SLLoTextBox.Location = new System.Drawing.Point(83, 228);
+            this.SLLoTextBox.Name = "SLLoTextBox";
+            this.SLLoTextBox.Size = new System.Drawing.Size(50, 20);
+            this.SLLoTextBox.TabIndex = 17;
+            this.SLLoTextBox.Text = "0,0001";
             // 
             // label9
             // 
@@ -368,15 +368,15 @@
             this.label9.TabIndex = 16;
             this.label9.Text = "s (I/Io)";
             // 
-            // button1
+            // AcceptTaskConditionsButton
             // 
-            this.button1.Location = new System.Drawing.Point(14, 265);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 23);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Принять значения";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.AcceptTaskConditionsButton.Location = new System.Drawing.Point(14, 265);
+            this.AcceptTaskConditionsButton.Name = "AcceptTaskConditionsButton";
+            this.AcceptTaskConditionsButton.Size = new System.Drawing.Size(119, 23);
+            this.AcceptTaskConditionsButton.TabIndex = 18;
+            this.AcceptTaskConditionsButton.Text = "Принять значения";
+            this.AcceptTaskConditionsButton.UseVisualStyleBackColor = true;
+            this.AcceptTaskConditionsButton.Click += new System.EventHandler(this.AcceptTaskConditionsButtonClick);
             // 
             // button2
             // 
@@ -489,74 +489,74 @@
             0,
             0});
             // 
-            // button3
+            // AcceptPropertiesButton
             // 
-            this.button3.Location = new System.Drawing.Point(166, 265);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(119, 23);
-            this.button3.TabIndex = 31;
-            this.button3.Text = "Принять значения";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.AcceptPropertiesButton.Location = new System.Drawing.Point(166, 265);
+            this.AcceptPropertiesButton.Name = "AcceptPropertiesButton";
+            this.AcceptPropertiesButton.Size = new System.Drawing.Size(119, 23);
+            this.AcceptPropertiesButton.TabIndex = 31;
+            this.AcceptPropertiesButton.Text = "Принять значения";
+            this.AcceptPropertiesButton.UseVisualStyleBackColor = true;
+            this.AcceptPropertiesButton.Click += new System.EventHandler(this.AcceptPropertiesButtonClick);
             // 
-            // label19
+            // TkLabel
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label19.Location = new System.Drawing.Point(228, 75);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(46, 13);
-            this.label19.TabIndex = 32;
-            this.label19.Text = "298,15";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TkLabel.AutoSize = true;
+            this.TkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TkLabel.Location = new System.Drawing.Point(228, 75);
+            this.TkLabel.Name = "TkLabel";
+            this.TkLabel.Size = new System.Drawing.Size(46, 13);
+            this.TkLabel.TabIndex = 32;
+            this.TkLabel.Text = "298,15";
+            this.TkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox9
+            // WSolTextBox
             // 
-            this.textBox9.Location = new System.Drawing.Point(215, 98);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(70, 20);
-            this.textBox9.TabIndex = 33;
-            this.textBox9.Text = "0,00";
+            this.WSolTextBox.Location = new System.Drawing.Point(215, 98);
+            this.WSolTextBox.Name = "WSolTextBox";
+            this.WSolTextBox.Size = new System.Drawing.Size(70, 20);
+            this.WSolTextBox.TabIndex = 33;
+            this.WSolTextBox.Text = "0,00";
             // 
-            // textBox10
+            // ViscosityTextBox
             // 
-            this.textBox10.Location = new System.Drawing.Point(215, 124);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(70, 20);
-            this.textBox10.TabIndex = 34;
-            this.textBox10.Text = "0,008905";
+            this.ViscosityTextBox.Location = new System.Drawing.Point(215, 124);
+            this.ViscosityTextBox.Name = "ViscosityTextBox";
+            this.ViscosityTextBox.Size = new System.Drawing.Size(70, 20);
+            this.ViscosityTextBox.TabIndex = 34;
+            this.ViscosityTextBox.Text = "0,008905";
             // 
-            // textBox11
+            // DPTextBox
             // 
-            this.textBox11.Location = new System.Drawing.Point(215, 150);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(70, 20);
-            this.textBox11.TabIndex = 35;
-            this.textBox11.Text = "78,3";
+            this.DPTextBox.Location = new System.Drawing.Point(215, 150);
+            this.DPTextBox.Name = "DPTextBox";
+            this.DPTextBox.Size = new System.Drawing.Size(70, 20);
+            this.DPTextBox.TabIndex = 35;
+            this.DPTextBox.Text = "78,3";
             // 
-            // textBox12
+            // DensityTextBox
             // 
-            this.textBox12.Location = new System.Drawing.Point(215, 176);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(70, 20);
-            this.textBox12.TabIndex = 36;
-            this.textBox12.Text = "0,99707";
+            this.DensityTextBox.Location = new System.Drawing.Point(215, 176);
+            this.DensityTextBox.Name = "DensityTextBox";
+            this.DensityTextBox.Size = new System.Drawing.Size(70, 20);
+            this.DensityTextBox.TabIndex = 36;
+            this.DensityTextBox.Text = "0,99707";
             // 
-            // textBox13
+            // M2TextBox
             // 
-            this.textBox13.Location = new System.Drawing.Point(215, 202);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(70, 20);
-            this.textBox13.TabIndex = 37;
-            this.textBox13.Text = "0,00";
+            this.M2TextBox.Location = new System.Drawing.Point(215, 202);
+            this.M2TextBox.Name = "M2TextBox";
+            this.M2TextBox.Size = new System.Drawing.Size(70, 20);
+            this.M2TextBox.TabIndex = 37;
+            this.M2TextBox.Text = "0,00";
             // 
-            // textBox14
+            // M1TextBox
             // 
-            this.textBox14.Location = new System.Drawing.Point(215, 228);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(70, 20);
-            this.textBox14.TabIndex = 38;
-            this.textBox14.Text = "18,15";
+            this.M1TextBox.Location = new System.Drawing.Point(215, 228);
+            this.M1TextBox.Name = "M1TextBox";
+            this.M1TextBox.Size = new System.Drawing.Size(70, 20);
+            this.M1TextBox.TabIndex = 38;
+            this.M1TextBox.Text = "18,15";
             // 
             // label20
             // 
@@ -640,85 +640,85 @@
             this.label28.TabIndex = 47;
             this.label28.Text = "n_e (b)";
             // 
-            // textBox15
+            // A0ATextBox
             // 
-            this.textBox15.Location = new System.Drawing.Point(364, 98);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(100, 20);
-            this.textBox15.TabIndex = 48;
-            this.textBox15.Text = "3,5";
+            this.A0ATextBox.Location = new System.Drawing.Point(364, 98);
+            this.A0ATextBox.Name = "A0ATextBox";
+            this.A0ATextBox.Size = new System.Drawing.Size(100, 20);
+            this.A0ATextBox.TabIndex = 48;
+            this.A0ATextBox.Text = "3,5";
             // 
-            // textBox16
+            // BTextBox
             // 
-            this.textBox16.Location = new System.Drawing.Point(364, 124);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 20);
-            this.textBox16.TabIndex = 49;
-            this.textBox16.Text = "0,2";
+            this.BTextBox.Location = new System.Drawing.Point(364, 124);
+            this.BTextBox.Name = "BTextBox";
+            this.BTextBox.Size = new System.Drawing.Size(100, 20);
+            this.BTextBox.TabIndex = 49;
+            this.BTextBox.Text = "0,2";
             // 
-            // textBox17
+            // RATextBox
             // 
-            this.textBox17.Location = new System.Drawing.Point(364, 176);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 20);
-            this.textBox17.TabIndex = 50;
-            this.textBox17.Text = "3,5";
+            this.RATextBox.Location = new System.Drawing.Point(364, 176);
+            this.RATextBox.Name = "RATextBox";
+            this.RATextBox.Size = new System.Drawing.Size(100, 20);
+            this.RATextBox.TabIndex = 50;
+            this.RATextBox.Text = "3,5";
             // 
-            // textBox18
+            // E0ATextBox
             // 
-            this.textBox18.Location = new System.Drawing.Point(364, 202);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 20);
-            this.textBox18.TabIndex = 51;
-            this.textBox18.Text = "222,34";
+            this.E0ATextBox.Location = new System.Drawing.Point(364, 202);
+            this.E0ATextBox.Name = "E0ATextBox";
+            this.E0ATextBox.Size = new System.Drawing.Size(100, 20);
+            this.E0ATextBox.TabIndex = 51;
+            this.E0ATextBox.Text = "222,34";
             // 
-            // textBox19
+            // NebTextBox
             // 
-            this.textBox19.Location = new System.Drawing.Point(364, 228);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(100, 20);
-            this.textBox19.TabIndex = 52;
-            this.textBox19.Text = "1,00";
+            this.NebTextBox.Location = new System.Drawing.Point(364, 228);
+            this.NebTextBox.Name = "NebTextBox";
+            this.NebTextBox.Size = new System.Drawing.Size(100, 20);
+            this.NebTextBox.TabIndex = 52;
+            this.NebTextBox.Text = "1,00";
             // 
-            // button4
+            // AcceptParametersButton
             // 
-            this.button4.Location = new System.Drawing.Point(336, 265);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(119, 23);
-            this.button4.TabIndex = 53;
-            this.button4.Text = "Принять значения";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.AcceptParametersButton.Location = new System.Drawing.Point(336, 265);
+            this.AcceptParametersButton.Name = "AcceptParametersButton";
+            this.AcceptParametersButton.Size = new System.Drawing.Size(119, 23);
+            this.AcceptParametersButton.TabIndex = 53;
+            this.AcceptParametersButton.Text = "Принять значения";
+            this.AcceptParametersButton.UseVisualStyleBackColor = true;
+            this.AcceptParametersButton.Click += new System.EventHandler(this.AcceptParametersButtonClick);
             // 
-            // label29
+            // ADebyeLabel
             // 
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label29.Location = new System.Drawing.Point(387, 46);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(56, 18);
-            this.label29.TabIndex = 54;
-            this.label29.Text = "Знач";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ADebyeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ADebyeLabel.Location = new System.Drawing.Point(387, 46);
+            this.ADebyeLabel.Name = "ADebyeLabel";
+            this.ADebyeLabel.Size = new System.Drawing.Size(56, 18);
+            this.ADebyeLabel.TabIndex = 54;
+            this.ADebyeLabel.Text = "Знач";
+            this.ADebyeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label30
+            // BDebyeLabel
             // 
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label30.Location = new System.Drawing.Point(387, 75);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(55, 13);
-            this.label30.TabIndex = 55;
-            this.label30.Text = "Знач";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BDebyeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BDebyeLabel.Location = new System.Drawing.Point(387, 75);
+            this.BDebyeLabel.Name = "BDebyeLabel";
+            this.BDebyeLabel.Size = new System.Drawing.Size(55, 13);
+            this.BDebyeLabel.TabIndex = 55;
+            this.BDebyeLabel.Text = "Знач";
+            this.BDebyeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label31
+            // RTFLabel
             // 
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label31.Location = new System.Drawing.Point(388, 153);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(54, 13);
-            this.label31.TabIndex = 56;
-            this.label31.Text = "Знач";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RTFLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RTFLabel.Location = new System.Drawing.Point(388, 153);
+            this.RTFLabel.Name = "RTFLabel";
+            this.RTFLabel.Size = new System.Drawing.Size(54, 13);
+            this.RTFLabel.TabIndex = 56;
+            this.RTFLabel.Text = "Знач";
+            this.RTFLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label32
             // 
@@ -1324,15 +1324,15 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label32);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.RTFLabel);
+            this.Controls.Add(this.BDebyeLabel);
+            this.Controls.Add(this.ADebyeLabel);
+            this.Controls.Add(this.AcceptParametersButton);
+            this.Controls.Add(this.NebTextBox);
+            this.Controls.Add(this.E0ATextBox);
+            this.Controls.Add(this.RATextBox);
+            this.Controls.Add(this.BTextBox);
+            this.Controls.Add(this.A0ATextBox);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label26);
@@ -1342,14 +1342,14 @@
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.M1TextBox);
+            this.Controls.Add(this.M2TextBox);
+            this.Controls.Add(this.DensityTextBox);
+            this.Controls.Add(this.DPTextBox);
+            this.Controls.Add(this.ViscosityTextBox);
+            this.Controls.Add(this.WSolTextBox);
+            this.Controls.Add(this.TkLabel);
+            this.Controls.Add(this.AcceptPropertiesButton);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -1361,23 +1361,23 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.AcceptTaskConditionsButton);
+            this.Controls.Add(this.SLLoTextBox);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.SLnATextBox);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.SFTextBox);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.DiagramTextBox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.RrovTextBox);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.BasisTextBox);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.ParticlesTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.ComOvTextBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -1413,23 +1413,23 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox ComOvTextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox ParticlesTextBox;
+        private System.Windows.Forms.TextBox BasisTextBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox RrovTextBox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox DiagramTextBox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox SFTextBox;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox SLnATextBox;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox SLLoTextBox;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AcceptTaskConditionsButton;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -1441,14 +1441,14 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Button AcceptPropertiesButton;
+        private System.Windows.Forms.Label TkLabel;
+        private System.Windows.Forms.TextBox WSolTextBox;
+        private System.Windows.Forms.TextBox ViscosityTextBox;
+        private System.Windows.Forms.TextBox DPTextBox;
+        private System.Windows.Forms.TextBox DensityTextBox;
+        private System.Windows.Forms.TextBox M2TextBox;
+        private System.Windows.Forms.TextBox M1TextBox;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
@@ -1458,15 +1458,15 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox A0ATextBox;
+        private System.Windows.Forms.TextBox BTextBox;
+        private System.Windows.Forms.TextBox RATextBox;
+        private System.Windows.Forms.TextBox E0ATextBox;
+        private System.Windows.Forms.TextBox NebTextBox;
+        private System.Windows.Forms.Button AcceptParametersButton;
+        private System.Windows.Forms.Label ADebyeLabel;
+        private System.Windows.Forms.Label BDebyeLabel;
+        private System.Windows.Forms.Label RTFLabel;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button5;

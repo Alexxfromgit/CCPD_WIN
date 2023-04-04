@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CCPD_v1._0._0._0._1
@@ -9,7 +6,7 @@ namespace CCPD_v1._0._0._0._1
     static class Program
     {
         /// <summary>
-        /// Главная точка входа для приложения.
+        /// Main app entry
         /// </summary>
         [STAThread]
         static void Main()
